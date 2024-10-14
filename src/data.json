@@ -1,0 +1,43 @@
+{
+  "boards": [
+    {
+      "id": 1,
+      "name": "TO DO",
+      "columns": [
+        {
+          "id": 1,
+          "name": "To Do",
+          "tasks": [
+            {
+              "id": 1,
+              "text": "Task 1",
+              "completed": false,
+              "subtasks": [
+                {
+                  "id": 1,
+                  "text": "Subtask 1.1",
+                  "completed": false
+                },
+                {
+                  "id": 2,
+                  "text": "Subtask 1.2",
+                  "completed": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "In Progress",
+          "tasks": []
+        },
+        {
+          "id": 3,
+          "name": "Done",
+          "tasks": []
+        }
+      ]
+    }
+  ]
+}
